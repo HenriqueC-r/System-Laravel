@@ -132,8 +132,8 @@ Content-Type: application/json
 
 ```json
 {
-  "nome": "Maria Silva",
-  "email": "maria@example.com",
+  "nome": "Mirian Ramos",
+  "email": "Mirian@example.com",
   "senha": "segredo123"
 }
 ```
@@ -146,8 +146,8 @@ Exemplo de resposta (`201 Created`):
   "mensagem": "Cadastro realizado com sucesso!",
   "usuario": {
     "id": 1,
-    "nome": "Maria Silva",
-    "email": "maria@example.com"
+    "nome": "Mirian Ramos",
+    "email": "mirian@example.com"
   }
 }
 ```
@@ -161,7 +161,7 @@ Content-Type: application/json
 
 ```json
 {
-  "email": "maria@example.com",
+  "email": "mirian@example.com",
   "senha": "segredo123"
 }
 ```
@@ -177,8 +177,8 @@ O login retorna o token, seu tipo, o tempo de expiração em segundos e os dados
   "expira_em": 3600,
   "usuario": {
     "id": 1,
-    "nome": "Maria Silva",
-    "email": "maria@example.com"
+    "nome": "Mirian Ramos",
+    "email": "Mirian@example.com"
   }
 }
 ```
